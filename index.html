@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html ng-app="myFirstApp">
   <head>
     <meta charset="utf-8">
-    <title>hHello Coursera</title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Hello Coursera</title>
   </head>
   <body>
     <h1>Hello Coursera</h1>
-    <p>test data</p>
-    why is it not syncing - ah, now it is
-    still testing
+    <div ng-controller="MyFirstController">
+      {{$scope}}
+
+    </div>
 
   </body>
 </html>
